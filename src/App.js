@@ -2,8 +2,8 @@ import React from 'react'
 
 function App() {
   return (
-React.createElement("h1",null,"Hello, world!!!")
-  );
+    <input type="text" onChange={()=>console.log("clicked")}/>
+  )
 }
 
 export default App;
